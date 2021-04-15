@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtAzimuth = findViewById(R.id.txtAzimuth);
+        /*txtAzimuth = findViewById(R.id.txtAzimuth);
         txtPitch = findViewById(R.id.txtPitch);
-        txtRoll = findViewById(R.id.txtRoll);
+        txtRoll = findViewById(R.id.txtRoll);*/
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
